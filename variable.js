@@ -1,7 +1,8 @@
 'use strict';
-console.log('Hello World');
 
+let name = 'ellie';
+console.log(name);
+name = 'hello';
+console.log(name);
 
-let a;
-a = 3;
-console.log(a);
+console.log(`안녕하세요. 저는 ${name} 입니다.`);
