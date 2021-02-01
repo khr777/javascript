@@ -123,3 +123,5 @@ console.log(triangle instanceof Rectangle);
 console.log(triangle instanceof Triangle);
 console.log(triangle instanceof Shape);
 console.log(triangle instanceof Object);
+
+// javascript MDN 사이트 참고 
