@@ -136,5 +136,6 @@ console.log(user5);
 const fruit1 = { color: 'red'};
 const fruit2 = { color: 'blue', size: 'big'};
 const mixed = Object.assign({}, fruit1, fruit2);
-console.log(mixed.color);
-console.log(mixed.size);
+// 뒤에 나올수록 앞에 property를 덮어 쓴다. 
+console.log(mixed.color);   // 출력 : blue
+console.log(mixed.size);   // 출력 : big
