@@ -114,7 +114,7 @@ const students = [
         if ( array[i] > array[i + 1]) {
             array.splice(i, 1, array[i + 1]);
         }
-        
+        // 나는 지금 무엇을 하려고 하는 것인가..... 
     }
     console.log(array);
 

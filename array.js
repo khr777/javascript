@@ -115,4 +115,6 @@ console.log(fruits);
 console.log(fruits.indexOf('🍍'));
 
 // lastIndexOf 
+// 배열 안에 중복되는 값이 있을 경우, 
+// lastIndexOf 함수는 가장 마지막에 있는 데이터의 index를 출력한다. 
 console.log(fruits.lastIndexOf('🍍'));
